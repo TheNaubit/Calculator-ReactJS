@@ -10,8 +10,19 @@ div.btn {
     border-width: 1px;
     border-color: coral;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
     transition: .5s;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
 }
 
 div.btnNumber {
@@ -26,7 +37,7 @@ div.btnNumber {
 div.btnOperation {
     font-size: 24px;
     background-color: coral;
-    color:white;
+    color: white;
 
     &:hover {
         background-color: rgb(255, 99, 42);
@@ -39,6 +50,6 @@ div.btnClear {
 
     &:hover {
         background-color: rgb(255, 99, 42);
-        color:white;
+        color: white;
     }
 }
