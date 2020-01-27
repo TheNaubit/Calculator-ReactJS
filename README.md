@@ -16,7 +16,7 @@ Yeah, you can test this [here](#)!
 ## How to install it?
 Just run this code:
 ``` bash
-git clone https://github.com/NauCode/ReactJS-Project-Structure.git
+git clone https://github.com/NauCode/Weather-Finder-ReactJS.git
 ```
 
 After that, enter in the folder using:
