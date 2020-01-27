@@ -1,27 +1,28 @@
-# Weather Finde in ReactJS
-This project is the continuation of the tutorials I am writing for my upcoming blog teaching ReactJS. Meanwhile the blog is not finished yet (too much to write!), you can download this project and since it is full of comments, you will be ready for my tutorials once they are done!
+# ReactJS Project Structure
+This is a project structure I love using in my projects and since several of you asked to upload it to GitHub meanwhile you were doing my tutorials, here it is!
 
-## Is there a demo?
-Yeah, you can test this [here](#)!
+# How to use it?
+Easy! In assets folder just place the assets of your project, like images, fonts (you will need to create the fonts folder), sass and so on.
 
-## What features this project has?
-- ReactJS
-- Using async methods
-- Using git
-- Using API requests
-- Parsing API requests
-- CSS Animations
-- React Components
+In components just create a folder for each component and if a component has subcomponents, just create a component's folder inside.
 
-## How to install it?
+For styling the components I also use SCSS but you could use CSS if you prefer it!
+
+We have another folder called routes, where you will add all the routes of your app (in the project, the route's files are empty since this app has no routes).
+
+Utils folder is just for general functions you want to use in several places.
+
+And finally in the root folder (src) I only place the index.js file, the serviceWorker.js and the tests.
+
+# How to install it?
 Just run this code:
 ``` bash
-git clone https://github.com/NauCode/ReactJS-Project-Structure.git
+git clone https://github.com/NauCode/ReactJS-Project-Structure.git your_project_name
 ```
 
 After that, enter in the folder using:
 ``` bash
-cd .\Weather-Finder-ReactJS\
+cd .\your_project_name\
 ```
 
 And install the dependencies:
