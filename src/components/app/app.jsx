@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from '../../assets/images/logo.svg';
+
+// Import the style of this component
 import './app.scss';
+
+// And also the calculator component
+import Calculator from './../calculator/calculator';
 
 function App() {
   return (
     <div className="app">
-      <header className="app-header">
-        <img src={logo} className="app-logo" alt="logo" />
-        <p>
-          Edit <code>src/app.js</code> and save to reload.
-        </p>
-        <a
-          className="app-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="calculator-wrapper">
+        <Calculator />
+      </div>
     </div>
   );
 }

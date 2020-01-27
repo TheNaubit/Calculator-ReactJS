@@ -1,28 +1,25 @@
-# ReactJS Project Structure
-This is a project structure I love using in my projects and since several of you asked to upload it to GitHub meanwhile you were doing my tutorials, here it is!
+# Calculator in ReactJS
+A simple and minimalistic calculator I have created for my upcoming tutorials in my blog. Meanwhile they are being written, you can check this project full of comments explaining what I do and why I do that!
 
-# How to use it?
-Easy! In assets folder just place the assets of your project, like images, fonts (you will need to create the fonts folder), sass and so on.
+# Is there any demo?
+Yes! You can check it [here](#)!
 
-In components just create a folder for each component and if a component has subcomponents, just create a component's folder inside.
-
-For styling the components I also use SCSS but you could use CSS if you prefer it!
-
-We have another folder called routes, where you will add all the routes of your app (in the project, the route's files are empty since this app has no routes).
-
-Utils folder is just for general functions you want to use in several places.
-
-And finally in the root folder (src) I only place the index.js file, the serviceWorker.js and the tests.
+# Features
+- ReactJS
+- Git
+- Stateful and stateless components
+- Project structure
+- Webpack
 
 # How to install it?
 Just run this code:
 ``` bash
-git clone https://github.com/NauCode/ReactJS-Project-Structure.git your_project_name
+git clone https://github.com/NauCode/Calculator-ReactJS.git
 ```
 
 After that, enter in the folder using:
 ``` bash
-cd .\your_project_name\
+cd .\Calculator-ReactJS\
 ```
 
 And install the dependencies:

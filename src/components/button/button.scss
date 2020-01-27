@@ -1,0 +1,44 @@
+div.btn {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: coral;
+    font-weight: bold;
+    cursor:pointer;
+    transition: .5s;
+}
+
+div.btnNumber {
+    font-size: 20px;
+
+    &:hover {
+        background-color: rgb(102, 102, 102);
+        color: white;
+    }
+}
+
+div.btnOperation {
+    font-size: 24px;
+    background-color: coral;
+    color:white;
+
+    &:hover {
+        background-color: rgb(255, 99, 42);
+    }
+}
+
+div.btnClear {
+    text-transform: lowercase;
+    color: rgba(95, 95, 95, 0.6);
+
+    &:hover {
+        background-color: rgb(255, 99, 42);
+        color:white;
+    }
+}
